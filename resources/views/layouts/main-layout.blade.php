@@ -9,7 +9,7 @@
     <title>Postcards</title>
 </head>
 <body>
-    <section id="app">
+    <div id="app">
         @include('components.header')
 
         @yield('content')
@@ -25,6 +25,6 @@
         @endif
     
         @include('components.footer')
-    </section>
+    </div>
 </body>
 </html>

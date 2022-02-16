@@ -6,7 +6,13 @@
 
         <br><hr><br>
 
+        <a class="btn btn-primary" href="{{ route('create') }}">CREATE</a>
+
+        <br><hr><br>
+
         <postcards-component></postcards-component>
+
+        <br><hr><br>
     @endauth
         @guest
             <h2>Registrazione</h2>

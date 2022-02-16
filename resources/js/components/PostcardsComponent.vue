@@ -15,7 +15,7 @@
                 <td>{{ postcard.address }}</td>
                 <td>{{ postcard.text }}</td>
                 <td>
-                    <img v-if="postcard.image" src="" alt="">
+                    <img v-if="postcard.image" :src="`/storage/asset/` + postcard.image" width="100px">
                     <p v-else>no image</p>
                 </td>
             </tr>
